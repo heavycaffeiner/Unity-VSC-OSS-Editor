@@ -6,7 +6,6 @@ Internal:
 
 - Fixes for release validation and release process
 
-
 ## [2.0.24] - 2025-09-04
 
 Integration:
@@ -25,14 +24,13 @@ Project generation:
 Integration:
 
 - Monitor `additionalfile` extension by default.
-- Try opening a Visual Studio Code workspace if there's one (`.code-workspace` file in the Unity project).
+- Try opening a Antigravity workspace if there's one (`.code-workspace` file in the Unity project).
 
 Project generation:
 
-- Identify `asset`, `meta`, `prefab` and `unity` files as `yaml` (Visual Studio Code).
-- Add `sln`/`csproj` file nesting (Visual Studio Code).
+- Identify `asset`, `meta`, `prefab` and `unity` files as `yaml` (Antigravity).
+- Add `sln`/`csproj` file nesting (Antigravity).
 - Improve SDK style project generation.
-
 
 ## [2.0.22] - 2023-10-03
 
@@ -69,7 +67,7 @@ Project generation:
 Integration:
 
 - Internal API refactoring.
-- Add support for Visual Studio Code.
+- Add support for Antigravity.
 
 Project generation:
 
@@ -81,7 +79,7 @@ Project generation:
 Integration:
 
 - Performance improvements with `EditorApplication.update` callbacks.
- 
+
 Project generation:
 
 - Add extra compiler options for analyzers and source generators.
@@ -104,7 +102,7 @@ Project generation:
 Integration:
 
 - Prevent ADB Refresh while being in safe-mode with a URP project
-- Fixed an issue keeping the progress bar visible even after opening a script with Visual Studio. 
+- Fixed an issue keeping the progress bar visible even after opening a script with Visual Studio.
 
 ## [2.0.15] - 2022-03-21
 
@@ -242,7 +240,6 @@ Integration:
 - When the user disabled auto-refresh in Unity, do not try to force refresh the Asset database.
 - Fix Visual Studio detection issues with languages using special characters.
 
-
 ## [2.0.2] - 2020-05-27
 
 - Added support for solution folders.
@@ -250,7 +247,6 @@ Integration:
 - Warn when unable to create the messenger.
 - Fixed an initialization issue triggering legacy code generation.
 - Allow package source in assembly to be generated when referenced from asmref.
-
 
 ## [2.0.1] - 2020-03-19
 
@@ -310,6 +306,6 @@ Integration:
 
 ## [1.0.3] - 2019-01-01
 
-### This is the first release of *Unity Package visualstudio_editor*.
+### This is the first release of _Unity Package visualstudio_editor_.
 
 - Using the newly created api to integrate Visual Studio with Unity.

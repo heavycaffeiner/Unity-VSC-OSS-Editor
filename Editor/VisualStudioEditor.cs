@@ -44,18 +44,18 @@ namespace Microsoft.Unity.VisualStudio.Editor
 		[InitializeOnLoadMethod]
 		static void LegacyVisualStudioCodePackageDisabler()
 		{
-			// disable legacy Visual Studio Code packages
-			var editor = CodeEditor.Editor.GetCodeEditorForPath("code.cmd");
+			// disable legacy Antigravity packages
+			var editor = CodeEditor.Editor.GetCodeEditorForPath("antigravity.cmd");
 			if (editor == null)
 				return;
 
 			if (editor is VisualStudioEditor)
 				return;
 
-			// only disable the com.unity.ide.vscode package
+			// only disable the com.unity.ide.antigravity package
 			var assembly = editor.GetType().Assembly;
 			var assemblyName = assembly.GetName().Name;
-			if (assemblyName != "Unity.VSCode.Editor")
+			if (assemblyName != "Unity.Antigravity.Editor")
 				return;
 
 			CodeEditor.Unregister(editor);
