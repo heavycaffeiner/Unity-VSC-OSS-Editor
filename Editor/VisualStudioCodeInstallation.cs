@@ -140,7 +140,7 @@ namespace Microsoft.Unity.VSCodeUniversal.Editor
             installation = new VisualStudioCodeInstallation()
             {
                 IsPrerelease = isPrerelease,
-                Name = programName + (isPrerelease ? " - Insider" : string.Empty) + (version != null ? $" [{version.ToString(3)}]" : string.Empty),
+                Name = (programName ?? "VSC-Based Editor") + (isPrerelease ? " - Insider" : string.Empty) + (version != null ? $" [{version.ToString(3)}]" : string.Empty),
                 Path = editorPath,
                 Version = version ?? new Version()
             };
