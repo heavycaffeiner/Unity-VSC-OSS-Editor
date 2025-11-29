@@ -10,7 +10,7 @@ using UnityEditor;
 using UnityEditor.Compilation;
 using UnityEditor.PackageManager;
 
-namespace Microsoft.Unity.VisualStudio.Editor
+namespace Microsoft.Unity.VSCodeUniversal.Editor
 {
 	public interface IAssemblyNameProvider
 	{

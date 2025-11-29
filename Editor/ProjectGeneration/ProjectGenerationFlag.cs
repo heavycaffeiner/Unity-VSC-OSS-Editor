@@ -5,7 +5,7 @@
  *--------------------------------------------------------------------------------------------*/
 using System;
 
-namespace Microsoft.Unity.VisualStudio.Editor
+namespace Microsoft.Unity.VSCodeUniversal.Editor
 {
 	[Flags]
 	public enum ProjectGenerationFlag

@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 using System.Collections.Generic;
 
-namespace Microsoft.Unity.VisualStudio.Editor
+namespace Microsoft.Unity.VSCodeUniversal.Editor
 {
 	internal class SolutionProperties
 	{

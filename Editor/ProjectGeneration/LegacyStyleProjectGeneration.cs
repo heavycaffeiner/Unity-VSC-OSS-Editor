@@ -7,7 +7,7 @@
 using System.Text;
 using UnityEditor.Compilation;
 
-namespace Microsoft.Unity.VisualStudio.Editor
+namespace Microsoft.Unity.VSCodeUniversal.Editor
 {
 
 	internal class LegacyStyleProjectGeneration : ProjectGeneration

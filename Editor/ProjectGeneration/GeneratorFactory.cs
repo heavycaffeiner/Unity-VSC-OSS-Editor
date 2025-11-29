@@ -6,7 +6,7 @@
 
 using System;
 
-namespace Microsoft.Unity.VisualStudio.Editor
+namespace Microsoft.Unity.VSCodeUniversal.Editor
 {
 	internal enum GeneratorStyle
 	{

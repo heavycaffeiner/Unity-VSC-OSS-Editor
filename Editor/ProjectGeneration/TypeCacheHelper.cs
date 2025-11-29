@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
 
-namespace Microsoft.Unity.VisualStudio.Editor {
+namespace Microsoft.Unity.VSCodeUniversal.Editor {
 
 	internal class TypeCacheHelper
 	{

@@ -1,7 +1,7 @@
 {
-  "name": "com.heavycaffiner.ide.antigravity",
-  "displayName": "Antigravity IDE",
-  "description": "Code editor integration for supporting Antigravity IDE as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+  "name": "com.heavycaffiner.ide.vscodeuniversal",
+  "displayName": "VSCode OSS Editor",
+  "description": "Code editor integration for supporting VSCode-based code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
   "version": "2.0.25",
   "unity": "2021.3",
   "dependencies": {

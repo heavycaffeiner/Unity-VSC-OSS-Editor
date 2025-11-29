@@ -6,7 +6,7 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 
-namespace Microsoft.Unity.VisualStudio.Editor.Messaging
+namespace Microsoft.Unity.VSCodeUniversal.Editor.Messaging
 {
 	internal class Messager : IDisposable
 	{

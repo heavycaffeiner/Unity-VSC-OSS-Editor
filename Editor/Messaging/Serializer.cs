@@ -5,7 +5,7 @@
 using System.IO;
 using System.Text;
 
-namespace Microsoft.Unity.VisualStudio.Editor.Messaging
+namespace Microsoft.Unity.VSCodeUniversal.Editor.Messaging
 {
 	internal class Serializer
 	{
