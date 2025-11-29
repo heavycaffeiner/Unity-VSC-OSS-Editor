@@ -100,6 +100,7 @@ namespace Microsoft.Unity.VSCodeUniversal.Editor
 
             Version version = null;
             var isPrerelease = false;
+            var programName = "";
 
             try
             {
@@ -127,6 +128,7 @@ namespace Microsoft.Unity.VSCodeUniversal.Editor
                     var manifest = JsonUtility.FromJson<VisualStudioCodeManifest>(File.ReadAllText(manifestFullPath));
                     Version.TryParse(manifest.version.Split('-').First(), out version);
                     isPrerelease = manifest.version.ToLower().Contains("insider");
+                    programName = manifest.name;
                 }
             }
             catch (Exception)
@@ -138,7 +140,7 @@ namespace Microsoft.Unity.VSCodeUniversal.Editor
             installation = new VisualStudioCodeInstallation()
             {
                 IsPrerelease = isPrerelease,
-                Name = "VSC-Based Editor" + (isPrerelease ? " - Insider" : string.Empty) + (version != null ? $" [{version.ToString(3)}]" : string.Empty),
+                Name = programName + (isPrerelease ? " - Insider" : string.Empty) + (version != null ? $" [{version.ToString(3)}]" : string.Empty),
                 Path = editorPath,
                 Version = version ?? new Version()
             };
